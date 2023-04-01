@@ -61,14 +61,14 @@ root = Tk()
 
 root.title("Subnet Calculator")
 
-label_1 = Label(root,font = "Arial",text="Enter IP Adress",justify=LEFT)
-label_2 = Label(root,font = "Arial", text="Enter Subnet Mask",justify=LEFT)
-label_3 = Label(root,font = "Arial", text="Network Address is: ",justify=LEFT)
-label_4 = Label(root,font = "Arial", text="Broadcast Address is: ",justify=LEFT)
-label_5 = Label(root,font = "Arial", text="Network Mask is: ",justify=LEFT)
-label_6 = Label(root,font = "Arial", text="No of host is: ",justify=LEFT)
-label_7 = Label(root,font = "Arial", text="Starting IP Address is: ",justify=LEFT)
-label_8 = Label(root,font = "Arial", text="Ending Ip Address is: ",justify=LEFT)
+label_1 = Label(root,font = "Arial",text="Enter IP Adress",anchor=W)
+label_2 = Label(root,font = "Arial", text="Enter Subnet Mask",anchor=W)
+label_3 = Label(root,font = "Arial", text="Network Address is: ",anchor=W)
+label_4 = Label(root,font = "Arial", text="Broadcast Address is: ",anchor=W)
+label_5 = Label(root,font = "Arial", text="Network Mask is: ",anchor=W)
+label_6 = Label(root,font = "Arial", text="No of host is: ",anchor=W)
+label_7 = Label(root,font = "Arial", text="Starting IP Address is: ",anchor=W)
+label_8 = Label(root,font = "Arial", text="Ending Ip Address is: ",anchor=W)
 
 
 in_ip = Entry(root,font = "Arial", width=40, borderwidth=2)
