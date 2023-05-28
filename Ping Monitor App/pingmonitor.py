@@ -2,9 +2,9 @@ import subprocess
 from datetime import datetime
 import time
 
-ipaddr      = '76.81.173.77'                # enter IP address of device to monitor        
+ipaddr      = '8.8.8.8'                # enter IP address of device to monitor        
 endTime     = '2023-05-27 23:00'            # enter time here to stop program 
-deviceName  = "WAI_Radar"                   # enter site name here
+deviceName  = "DNS"                   # enter site name here
 
 fileName    = f"D:\{deviceName}_Ping_test.txt"   
 pcommand    = 'ping -n 1 '+ ipaddr  
