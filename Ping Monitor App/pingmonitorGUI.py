@@ -11,7 +11,7 @@ def start_ping():
     global status
 
     input_IP = ipaddr.get()
-    pcommand = 'powershell -command ping -n 1 '+ input_IP
+    pcommand = 'ping -n 1 '+ input_IP
     deviceName = device.get()
     fileName    = f"{deviceName.upper()}_ping_test.txt" 
     minutes = duration.get() 
